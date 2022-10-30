@@ -1,11 +1,16 @@
 @font-face {
-    font-family:RIPpaintdrips;
+    font-family:'RIPpaintdrips';
     src: url(TastyDrips.ttf);
+}
+
+@font-face {
+    font-family: NORMAL;
+    src: url(VanillaExtractRegular.ttf);
 }
 
 
 h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT';
+    font-family: 'NORMAL';
     font-size:75px;
     text-align: center;
 }
@@ -18,17 +23,25 @@ li {
 
    color: rgb(153, 153, 153);
    text-align: center;
-   background-color: rgb(129, 92, 13)
+   font-family: 'NORMAL';
+   background-color: rgb(129, 92, 13);
    
    
+   
+}
+
+.eow {
+font-family: 'NORMAL';
 }
 
 h2 {
 font-size: 50px;
+font-family: 'NORMAL';
 }
 
 #Headsmen {
 margin-bottom:0px;
+font-family: 'NORMAL';
 }
 
 #ThePartWhereHeInformsYou {
@@ -39,17 +52,84 @@ background-color: rgb(255, 255, 255);
 #itwontworketh {
 
 color: aqua;
+font-family: 'NORMAL';
 
 }
 
 button {
 
-color: rgb(35, 247, 247);
-background-color: rgb(51, 155, 155);
+color: rgb(247, 162, 35);
+background-color: rgb(0, 255, 179);
 font-family: 'RIPpaintdrips';
 font-size: 60px;
-border: 15px solid rgb(40, 40, 141);
+border: 15px solid rgb(153, 0, 255);
 border-radius: 5px;
+cursor: pointer;
+
+}
+
+.btn:hover {
+
+color: aqua;
+background-color: rgb(18, 92, 92);
+border: 15px solid rgb(38, 10, 65);
+transition: 0.3s;
+
 
 
 }
+
+.btn2 {
+border:15px solid rgb(255, 255, 255); background-color: brown; color: rgb(255, 255, 255);
+}
+.btn2:hover {
+
+    background-color: rgb(97, 23, 23);
+    border: 15px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+    
+    }
+
+.btn3 {
+
+    background-color: rgb(255, 255, 255); border: 15px solid black; color: blueviolet;
+    transition: 0.3s;
+}
+
+.btn3:hover {
+background-color: rgb(0, 0, 0);
+border: 15px solid rgb(191, 94, 255);
+color: rgb(191, 94, 255);
+}
+
+
+.btnimgg {
+    background-color: rgb(100, 100, 100);
+    border: 15px solid rgb(255, 217, 0);
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+.btnimgg:hover{
+    background-color: rgb(0, 0, 0);
+    border: 15px solid rgb(255, 255, 255);
+    color: rgb(97, 97, 97);
+    
+}
+
+
+.gallery img :hover {
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
